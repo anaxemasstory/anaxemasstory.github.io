@@ -17,9 +17,9 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: "Creepster";
   font-weight: 400;
   color: #ac1806;
-  padding-left: 8px;
-  padding-right: 8px;
-  font-size: xx-large;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: x-large;
 }
 .wreath {
   -ms-flex: 0 0 41.666667%;
@@ -36,18 +36,40 @@ body, h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 } */
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .img-fluid-rounded {
   max-width: 100%;
   height: auto;
   border-radius: 20px;
 }
 
+.img-fluid-rounded-bottom {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0 0 20px 20px;
+}
+
+.img-fluid-rounded-top {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.img-small {
+  max-width: 20%;
+  height: auto;
+  margin: 0 auto;
+}
 .intro-header {
   position: relative;
-  background-image: url(../img/intro-bg.jpg);
+  background-image: url(../img/plaid.jpg);
   background-repeat: repeat;
   background-size:100%;
-  padding: 40px;
+  padding: 30px;
 }
 
 .intro-message {
@@ -105,13 +127,12 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .content-section-a {
   padding: 40px;
-  background-color: #ffffff;
-  border-radius: 20px;
+  background-color: #faf8fb;
   margin: 0 auto;
 }
 
 .content-section-b {
-  padding: 40px 0;
+  border-radius: 20px;
   margin: 0 auto;
 }
 
@@ -161,6 +182,22 @@ body, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+.bio {
+  padding: 30px;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 20px 0;
+}
+
+.center-row {
+  display: flex;
+  align-self: center;
+  padding: 30px 0;
+}
 @media(max-width:1199px) {
   ul.banner-social-buttons {
     float: left;
@@ -251,4 +288,9 @@ p.copyright {
   .content-section-d {
     max-width: 1140px;
   }
+}
+.poster {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
