@@ -183,7 +183,12 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .bio {
-  padding: 30px;
+  padding: 40px 0;
+}
+
+.bio-text {
+  font-size: .75rem;
+  font-weight: 300;
 }
 
 .center-column {
@@ -243,6 +248,10 @@ p.copyright {
   .content-section-d {
     max-width: 540px;
   }
+  .bio-text {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
 }
 
 @media (min-width: 768px) {
@@ -257,6 +266,10 @@ p.copyright {
   }
   .content-section-d {
     max-width: 720px;
+  }
+  .bio-text {
+    font-size: 1.25rem;
+    font-weight: 300;
   }
 }
 
@@ -273,6 +286,10 @@ p.copyright {
   .content-section-d {
     max-width: 960px;
   }
+  .bio-text {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -287,6 +304,10 @@ p.copyright {
   }
   .content-section-d {
     max-width: 1140px;
+  }
+  .bio-text {
+    font-size: 1.25rem;
+    font-weight: 300;
   }
 }
 .poster {
