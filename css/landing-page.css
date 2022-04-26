@@ -14,12 +14,18 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 .bloody {
-  font-family: "Creepster";
+  font-family: "shlop";
   font-weight: 400;
   color: #9b0506;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
   font-size: x-large;
+}
+.big-bloody {
+  font-family: "shlop";
+  font-weight: 400;
+  color: #9b0506;
+  font-size: xx-large;
 }
 .wreath {
   -ms-flex: 0 0 41.666667%;
